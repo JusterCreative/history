@@ -1,0 +1,39 @@
+.main-post {
+    max-width: 1280px;
+    width: 100%;
+
+    margin: 100px auto 0px auto;
+    padding: 20px;
+}
+
+.main-post h1 {
+    font-size: 28px;
+}
+
+.main-post-text {
+    margin: 20px 0 0 0;
+}
+
+.main-post-text p {
+    margin: 10px 0 0 0;
+
+    font-size: 22px;
+}
+
+.main-post-video {
+    width: 100%;
+    height: 600px;
+
+    margin: 50px 0 0 0;
+
+    border: none;
+}
+
+/*  */
+
+@media only screen and (max-width: 560px) {
+
+    .main-post-video {
+        height: 300px;
+    }
+}

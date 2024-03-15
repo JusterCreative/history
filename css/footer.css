@@ -1,0 +1,83 @@
+.footer {
+    max-width: 1280px;
+
+    width: 100%;
+
+    margin: 100px auto 0px auto;
+    padding: 20px;
+}
+
+.footer-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.foot-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+}
+
+.foot-button {
+    display: flex;
+    margin: 10px 0 0 0;
+}
+
+.footer-two {
+    display: flex;
+    margin: 45px 0 0 0;
+    justify-content: space-between;
+}
+
+.foot-two-text {
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+.second-word {
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #C1AB97;
+}
+
+.hide-NOVA-NE-BEI {
+    color: white;
+}
+
+/*  */
+
+@media only screen and (max-width: 960px) {
+
+    .foot-button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .footer-two {
+        display: block;
+        text-align: center;
+    }
+
+    .button-social {
+        margin: 20px 0 0 0;
+    }
+}

@@ -1,0 +1,50 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1280px;
+    width: 100%;
+
+    padding: 40px 20px;
+    margin: 0 auto;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.navLogoImg {
+    max-width: 200px;
+    width: 100%;
+     
+    margin: 0 10px 0 0;
+}
+
+.navLinkTap {
+    margin: 0 0 0 60px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navLinkImg {
+    text-decoration: none;
+}
+
+.navLinkImg + .navLinkImg {
+    margin: 0 0 0 40px;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .navLink {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    
+    .navLogoImg {
+        max-width: 100px;
+    }
+}

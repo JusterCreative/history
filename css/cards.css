@@ -1,0 +1,123 @@
+/* cards */
+
+.most-popular-recipes {
+    max-width: 1280px;
+    margin: 100px auto 0px auto;
+    width: 100%;
+}
+
+.text-mpr {
+    text-align: center;
+
+    max-width: 700px;
+    width: 100%;
+    margin: 0px auto 50px auto; 
+    padding: 0 20px;
+}
+
+.article {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 25px 0px 0px 0px;
+}
+
+/*  */
+
+.recipes-mpr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+
+    max-width: 1280px;
+    width: 100%;
+
+    grid-gap: 30px 30px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.recipes-block {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #c2a182 240%);
+    border-radius: 30px;
+}
+
+.mpr-img {
+    width: 100%;
+    height: 300px;
+
+    border-radius: 25px;
+
+    object-fit: cover;
+}
+
+.recipes-mpr-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.mpr-block-text {
+    padding: 20px;
+}
+
+.mpr-time-clock {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px 0 0 0;
+}
+
+.mpr-timer, .mpr-clock {
+    display: flex;
+    align-items: center;
+}
+
+.mpr-timer img, .mpr-clock img {
+    width: 20px;
+    height: 20px;
+}
+
+.mpr-text-timeclock {
+    margin: 0 0 0 10px;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+/*  */
+
+@media only screen and (max-width: 960px) {
+
+    .recipes-mpr {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    .recipes-mpr {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
